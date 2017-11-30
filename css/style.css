@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.container {
+    margin: 0 auto;
+    width: 58%;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    background: #edeff1;
+    padding: 40px 0px;
+}
+.logo {
+    width: 20%;float: left;
+}
+.logo img{
+    width: 133px;
+}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    text-align: right;
+}
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #31353e;
+    font-size: 12px;
+    padding: 13px 20px;
+    display: block;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+nav ul li a:hover{
+    background: #dd4b2b;
+    color: #edeff1;
+}
+.banner{
+    background: url(../images/background1.jpg);
+    margin: 0 auto;
+    height: 135vh;
+    background-size: cover;
+    position: relative;
+}
+.banner .container{
+    height: 100%;
+    position: relative;
+}
+.content{
+    color: white;
+    text-align: center;
+    position: absolute;
+    height: 100vh;
+    transform: translate(2%,50%);
+}
+.banner_head{}
+.banner_head h1{
+    font-weight: lighter;
+    font-size: 50px;
+}
+.banner_head p{
+    font-weight: 500;
+    font-size: 19px;
+}
+.features{
+    padding-top: 70px;
+}
+.features_section{
+    width: 28.33%;
+    float: left;
+    margin: 0px 19px;
+}
+.features_section img{
+    width: 33.33%;
+    border: 5px white solid;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.features_section h2{
+    font-weight: bold;
+    font-size: larger;
+}
+.features_section span{
+    font-weight: 100;
+    font-size: 9px;
+}
+.more{
+    width: 100%;
+    float: left;
+}
+.more a{
+    text-decoration: none;
+    color: #4e220a;
+}
+.more a p{
+    background: white;
+    display: inline-block;
+    padding: 15px 35px 15px;
+    border-radius: 50px;
+    margin: 50px 0px;
+    font-size: smaller;
+    transition: 0.4s;
+}
+.more a p:hover{
+    background: #dd4b2b;
+    color: #edeff1;
+}
+.news{
+    text-align: center;
+    background: #edeff1;
+}
+.news .container{
+
+}
+.news_head{
+    margin: 0 auto;
+    padding: 50px 0px;
+    font-size: smaller;
+}
+.news_head h1{
+}
+.news_section{
+    width: 30%;
+    margin: 0px 13px;
+    float: left;
+}
+.news_section img{
+
+}
+.news_section h3{
+    font-size: medium;
+    margin: 20px 0px 5px;
+}
+.news_section span{
+    font-size: 11px;
+}
+.news_section a{
+    text-decoration: none;
+    font-size: smaller;
+    background: white;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 40px 0px;
+}
+.news_section a:hover{
+    background: #e25b3f;
+    color: #edeff1;
+    transition: 0.4s;
+}
+.newsletter{
+    background: url(../images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+.newsletter .overlay{
+    width: 100%;
+    position: absolute;
+    background: #00000061;
+    height: 100%;
+}
+.newsletter .container{
+
+}
+.newsletter_head{
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+.newsletter_head h1{
+    font-size: larger;
+    padding: 100px 0px 10px;
+    }
+.newsletter_head p{
+    font-size: 12px;
+    width: 70%;
+    margin: 0 auto;
+}
+.subscribe{
+    text-align: center;
+    position: absolute;
+    top: 65%;
+}
+.subscribe input[type="email"]{
+    background: #ffffff4a;
+    border: 1px solid whitesmoke;
+    padding: 10px 20px;
+    border-radius: 50px;
+    width: 120%;
+    margin: 20px 0px;
+    position: relative;
+    right: -56%;
+    top: -30px;
+    }
+.subscribe input[type="submit"]{
+    padding: 11px 30px;
+    border-radius: 50px;
+    border: none;
+    transform: translate(390%,-235%);
+    background: #edeff1;
+    position: relative;
+    color: #6e3f0c;
+    cursor: pointer;
+}
+.subscribe input[type="submit"]:hover{
+    background: #e25b3f;
+    transition: 0.4s;
+    color: white;
+}
+.registration{
+    padding: 100px 0px;
+}
+.registration .container{
+    height: 100vh;
+}
+.top{
+    margin-top: 10px;
+    height: 50%;
+}
+.top .describe{
+    width: 50%;
+    float: left;
+}
+.top .describe h1{
+    font-size: larger;
+}
+.top .describe p{
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 45px;
+    line-height: 20px;
+}
+.top .describe a{
+    text-decoration: none;
+    background: #4a565a;
+    color: white;
+    padding: 10px 50px 10px;
+    font-size: small;
+    border-radius: 50px;
+}
+.top .describe a:hover{
+    background: #e25b3f;
+    transition: 0.4s;
+}
+.top img{
+    width: 46%;
+    float: right;
+}
+.bottom{
+    height: 50%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.bottom img{
+    width: 46%;
+    float: left;
+}
+.bottom .describe{
+    width: 50%;
+    float: left;
+    margin-left: 30px;
+}
+.bottom .describe h1{
+    font-size: larger;
+}
+.bottom .describe p{
+    font-size: small;
+    margin-top: 10px;
+    line-height: 20px;
+    margin-bottom: 45px;
+}
+.bottom .describe a{
+    text-decoration: none;
+    background: #4a565a;
+    color: white;
+    padding: 10px 50px 10px;
+    font-size: small;
+    border-radius: 50px;
+}
+.bottom .describe a:hover{
+    background: #e25b3f;
+    transition: 0.4s;
+}
+.index{
+    background: #d75d0e;
+}
+.index .container{}
+.divide{
+    margin: 0 auto;
+    width: 33.33%;
+    float: left;
+    padding: 50px 0px;
+    text-align: center;
+}
+.divide a{
+    font-size: small;
+    text-decoration: none;
+    color: white;
+}
+.divide a:hover{
+    text-decoration: underline;
+}
+footer{
+    background: url(../images/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .container{
+}
+.footer_content{
+    text-align: center;
+    font-size: small;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    padding: 60px 0px;
+    }
+.footer_content span{
+    color: white;
+}
+.footer_content a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.footer_content a:hover{
+
+}
+footer .overlay{
+    width: 100%;
+    position: absolute;
+    background: #00000061;
+    height: 156px;
+}
